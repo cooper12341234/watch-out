@@ -41,7 +41,7 @@ def web_page2(tempValue,colour):
                 
                 color: {colour};  /* Set initial color based on current status */
             }}
-            
+        
         </style>
         <script>
             function updateTemp() {{
@@ -107,12 +107,12 @@ maximum = 34
 colour = "green"
 
 dim_mode = False
-
+# code for ambient light sensor, dim interface function activates when exceeding 63000
 light_threshold = 63000
 sensing_light = False
 is_dim = False
 
-
+# colors used in user interface
 GREEN_NORMAL = "green"
 RED_NORMAL = "red"
 GREEN_DIM = "seagreen"
